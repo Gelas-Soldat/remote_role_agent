@@ -1,5 +1,9 @@
 # Remote Role Agent
 
+[![Python check](https://github.com/Gelas-Soldat/remote_role_agent/actions/workflows/python_check.yml/badge.svg)](https://github.com/Gelas-Soldat/remote_role_agent/actions/workflows/python_check.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Support](https://img.shields.io/badge/Support-Buy%20Me%20a%20Coffee-yellow.svg)](https://buymeacoffee.com/ryancreates)
+
 A local AI assisted job search command center for finding remote roles in the United States.
 
 The app searches configured job sources, filters for United States remote roles, scores fit against a target profile, saves results in SQLite, and gives you a local dashboard where you can save, shortlist, apply, reject, hide, review, and export jobs.
@@ -148,3 +152,14 @@ docs/                      Setup, privacy, source, and roadmap notes
 ## GitHub safety note
 
 This repo is safe to upload as long as you do not add `.env`, `output/jobs.sqlite`, CSV exports, or API keys. The included `.gitignore` blocks those files by default.
+
+## Support
+
+Remote Role Agent is a public portfolio project and local first job search tool. If it helps you or gives you ideas for your own workflow, support is appreciated.
+
+1. Star the repository.
+2. Share feedback through GitHub Issues.
+3. Support development through GitHub Sponsors, Buy Me a Coffee, or thanks.dev.
+
+Funding links are configured in `.github/FUNDING.yml`, which lets GitHub show the Sponsor button on the repository page.
+
