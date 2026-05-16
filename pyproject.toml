@@ -1,0 +1,14 @@
+[project]
+name = "remote-role-agent"
+version = "3.1.0"
+description = "Local dashboard for finding, filtering, scoring, and tracking United States remote jobs."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "Flask>=3.0.0",
+  "requests>=2.31.0",
+  "python-dotenv>=1.0.0"
+]
+
+[tool.py_compile]
+files = ["app.py", "job_agent.py"]
